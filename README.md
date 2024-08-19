@@ -2,7 +2,7 @@
 
 This is a Python application that simulates wave propagation through different mediums using a modern GUI built with `customtkinter` and `matplotlib`. The application visualizes how waves behave in various mediums, such as air, water, steel, earth, glass, and rubber.
 
-![Wave Propagation Simulator Screenshot](https://imgur.com/a/fFiGIbg)
+![Wave Propagation Simulator Screenshot](https://i.imgur.com/5MiPCF4_d.webp?maxwidth=760&fidelity=grand)
 
 ## Features
 

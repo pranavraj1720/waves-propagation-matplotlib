@@ -49,7 +49,7 @@ root = ctk.CTk()
 root.title("Wave Propagation in Different Mediums")
 root.geometry("800x600")
 
-# Create a modern dropdown menu for medium selection
+# Dropdown menu for medium selection
 medium_var = ctk.StringVar(value="Choose Medium")
 medium_dropdown = ctk.CTkOptionMenu(
     root, 
@@ -59,12 +59,12 @@ medium_dropdown = ctk.CTkOptionMenu(
     width=120,
     font=('Inter', 15),
     button_color="#5790DF",
-    text_color="white",  # Text color
-    corner_radius=6,  # Rounded corners
+    text_color="white",  
+    corner_radius=6,  
     fg_color="#5790DF"
 )
 medium_dropdown.configure()  
-medium_dropdown.pack(side=ctk.TOP, anchor='ne', padx=20, pady=20)  # Position at top right with margins
+medium_dropdown.pack(side=ctk.TOP, anchor='ne', padx=20, pady=20)  
 
 # Create Matplotlib figure
 fig, ax = plt.subplots()

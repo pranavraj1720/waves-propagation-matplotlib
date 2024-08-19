@@ -25,8 +25,8 @@ This is a Python application that simulates wave propagation through different m
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/wave-propagation-simulator.git
-   cd wave-propagation-simulator
+   git clone https://github.com/pranavraj1720/waves-propagation-matplotlib.git
+   cd waves-propagation-matplotlib
 
 2. Install the required Python packages:
 

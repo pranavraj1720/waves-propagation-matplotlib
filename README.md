@@ -15,7 +15,7 @@ This is a Python application that simulates wave propagation through different m
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.0 or later
 - `customtkinter`
 - `matplotlib`
 - `numpy`

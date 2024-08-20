@@ -37,7 +37,7 @@ This is a Python application that simulates wave propagation through different m
 3. Run the application:
 
    ```bash
-   python wave_propagation_simulator.py
+   python main.py
    ```
 
 ## Usage

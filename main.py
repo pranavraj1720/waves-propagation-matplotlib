@@ -2,6 +2,7 @@ import customtkinter as ctk
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import subprocess
 
 # Initialize customtkinter
 ctk.set_appearance_mode("System")  # Use "Dark", "Light", or "System"
@@ -112,6 +113,11 @@ dropdown.pack(side=ctk.LEFT, padx=10, pady=(0, 10))
 animate_button = ctk.CTkButton(control_frame, text="Animate", command=toggle_animation)
 animate_button.pack(side=ctk.LEFT, padx=10, pady=(0, 10))
 
+def open_new_file():
+    subprocess.run(["python", "wavesTransitionMedium.py"]) 
+
+button = ctk.CTkButton(control_frame, text="Animate", command=open_new_file)
+button.pack(side=ctk.LEFT, padx=50, pady=(0, 10))
 # Frame for sliders
 slider_frame = ctk.CTkFrame(root)
 
